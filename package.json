@@ -1,0 +1,36 @@
+{
+  "name": "@oddhill/react-starter-kit",
+  "version": "0.1.0",
+  "description": "Starter kit for React based projects.",
+  "main": "./src/index.jsx",
+  "repository": "https://www.github.com/oddhill/react-starter-kit",
+  "author": "Christoffer Palm <christoffer.palm@oddhill.se>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --open",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "file-loader": "^1.1.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-react": "^7.0.0-beta.34",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.9",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.1"
+  }
+}
